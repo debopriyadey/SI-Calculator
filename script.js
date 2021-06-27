@@ -3,7 +3,10 @@ function compute() {
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
+    var amount = principal + interest*years;
     var year = new Date().getFullYear()+parseInt(years);
+    document.getElementById("result").innerText="\n\nIf you deposit "+ principal + ",\n" + "at an interest rate of " + rate + ".\n" + "You will receive an amount of " + interest + ",\n" + "in the year " + year;
+
 }
 
 function updateRate() 
