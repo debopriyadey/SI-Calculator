@@ -1,10 +1,13 @@
 function compute() {
+    
+    //geting all the values from html form
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
-    var interest = principal * years * rate / 100;
-    var amount = principal + interest * years;
-    var year = new Date().getFullYear() + parseInt(years);
+    var interest = principal * years * rate / 100; // cal the intrest
+    var year = new Date().getFullYear() + parseInt(years); // cal the year
+
+    // checking if the principal is a positive number or not
     if (principal <= 0) {
         alert('Enter a positive number')
     } else {
