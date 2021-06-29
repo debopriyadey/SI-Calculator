@@ -4,4 +4,4 @@ This is the final project I created for IMB certification course [Introduction t
 
 ## Website link 
 
-[SI Calculator](https://learning.edx.org/course/course-v1:IBM+CAD101EN+2T2020/home)
+[Web App – Simple Interest Calculator](https://learning.edx.org/course/course-v1:IBM+CAD101EN+2T2020/home)
